@@ -14,15 +14,15 @@
 	$prenom ="alexandre";
 	$age =34;
 
-	echo $nom, $prenom, $age;
+	echo $nom.'</br>'.$prenom.'</br>'. $age.'</br>';
 
 	$kilometre ="1";
 
-	echo $kilometre;
+	echo $kilometre.'<br>';
 
-	echo $kilometre*3;
+	echo ($kilometre*3).'<br>';
 
-	echo $kilometre*125;
+	echo ($kilometre*125).'<br>';
 
 	$string="fabrik";
 
@@ -32,27 +32,37 @@
 
 	$bolean=false;
 
-	echo $string, $int, $float,$bolean;
+	echo $string.'<br>'. $int.'<br>'. $float.'<br>'.$bolean.'<br>';
 
 
-	$ints;
+	$plouc=(int)NULL;
 
-	echo $ints;
+	echo $plouc.'<br>';
 
-	$ints = 5;
+	$plouc = 5;
 
-	echo $ints;
+	echo $plouc.'<br>';
 
 	$nom="patate";
 
-	echo "bonjour" .$nom. "comment vas tu?";
+	echo "bonjour"  .$nom. "comment vas tu?".'<br>';
 
 
 	$NOMS = "leroux";
 	$prenom ="alexandre";
 	$age =34;
 
-	echo "bonjour".$NOMS.$prenom. "tu as".$age."ans";
+	echo "bonjour".$NOMS.$prenom. "tu as".$age."ans".'<br>';
+
+	$un= (3+4);
+
+	$deux=(5*20);
+
+	$trois=(45/5);
+
+	echo $un.'<br>'. $deux.'<br>'. $trois;
+
+
 
 ?>
 </body>
