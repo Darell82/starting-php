@@ -7,6 +7,7 @@
 </head>
 <body>
 	<a href="variables.php">exercice1</a>
+	<a href="condition.php">exercice2</a>
 
 </body>
 </html>
