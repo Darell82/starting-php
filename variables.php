@@ -1,42 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>exo</title>
+</head>
+<body>
 <?php
-$nom ="leroux";
+	$nom ="leroux";
 
-echo $nom;
-
-
-$nom = "leroux";
-$prenom ="alexandre";
-$age =34;
-
-echo $nom, $prenom, $age;
-
-$kilometre ="1";
-
-echo $kilometre;
-
-echo $kilometre*3;
-
-echo $kilometre*125;
-
-$string="fabrik";
-
-$int=2;
-
-$float="45,2";
-
-$bolean=true;
-
-echo $string, $int, $float,$bolean;
+	echo $nom.'</br>';
 
 
-$ints;
+	$NOM = "leroux";
+	$prenom ="alexandre";
+	$age =34;
 
-echo $int;
+	echo $nom, $prenom, $age;
 
-$ints = 5;
+	$kilometre ="1";
 
-echo $ints;
+	echo $kilometre;
 
-$nom="patate";
+	echo $kilometre*3;
 
-echo "bonjour" .$nom. "comment vas tu?";
+	echo $kilometre*125;
+
+	$string="fabrik";
+
+	$int=2;
+
+	$float="45,2";
+
+	$bolean=false;
+
+	echo $string, $int, $float,$bolean;
+
+
+	$ints;
+
+	echo $ints;
+
+	$ints = 5;
+
+	echo $ints;
+
+	$nom="patate";
+
+	echo "bonjour" .$nom. "comment vas tu?";
+
+
+	$NOMS = "leroux";
+	$prenom ="alexandre";
+	$age =34;
+
+	echo "bonjour".$NOMS.$prenom. "tu as".$age."ans";
+
+?>
+</body>
+</html>
+
+
+
