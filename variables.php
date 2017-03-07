@@ -6,7 +6,7 @@ echo $nom;
 
 $nom = "leroux";
 $prenom ="alexandre";
-$age ="34";
+$age =34;
 
 echo $nom, $prenom, $age;
 
@@ -17,5 +17,7 @@ echo $kilometre;
 echo $kilometre*3;
 
 echo $kilometre*125;
+
+
 
 
