@@ -29,3 +29,10 @@ $bolean=true;
 echo $string, $int, $float,$bolean;
 
 
+$ints;
+
+echo $int;
+
+$ints = 5;
+
+echo $ints;
