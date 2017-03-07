@@ -36,3 +36,7 @@ echo $int;
 $ints = 5;
 
 echo $ints;
+
+$nom="patate";
+
+echo "bonjour" .$nom. "comment vas tu?";
