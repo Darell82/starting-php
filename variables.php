@@ -18,6 +18,14 @@ echo $kilometre*3;
 
 echo $kilometre*125;
 
+$string="fabrik";
 
+$int=2;
+
+$float="45,2";
+
+$bolean=true;
+
+echo $string, $int, $float,$bolean;
 
 
