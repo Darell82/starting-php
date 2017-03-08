@@ -44,7 +44,16 @@ echo concat ("salut ","super ");
 			return $nb.$caractere;
 	}
 echo fusion ( 10 , " chouette ");
+
 	//exercice6
+	//faire une fonction qui prend 3 parametre, nom, prenom, et age.elle doit renvoyer une chaine: bonjour nom prenom tu as ans.
+	
+	function bonjour($nom , $prenom , $age){
+			return $nom.$prenom.$age;
+	}
+
+	echo bonjour ("bonjour "."leroux"."alexandre"." tu as ".34." ans.");
+
 	//exercice7
 	//exercice8
 
