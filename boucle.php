@@ -57,8 +57,10 @@ for ($i = 20; $i >= 0; $i--) {
    }
 
 	//exo8
-   	//
-
+   	//en allant de 200 À 0 au pas de 12 afficher le message "ENFIN!!!!"
+for ($i = 200; $i >= 0; $i-=12) {
+    echo "ENFIN!!!! ";
+   }
 ?>
 </body>
 </html>
