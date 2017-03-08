@@ -8,6 +8,7 @@
 <body>
 	<a href="variables.php">exercice1</a>
 	<a href="condition.php">exercice2</a>
+	<a href="boucle.php">exercice3</a>
 
 </body>
 </html>
