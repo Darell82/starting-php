@@ -12,6 +12,7 @@
 	<a href="fonction.php">exercice4</a>
 	<a href="tableau.php">exercice5</a>
 	<a href="parametre.php">exercice6</a>
+	<a href="formulaire.php">exercice7</a>
 
 </body>
 </html>

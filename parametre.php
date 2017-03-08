@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>exercice6/title>
 </head>
 <body>
 <?php
