@@ -32,12 +32,13 @@ echo "<p><a href='superglobal2.php'></a></p>";
 //exercice 3
 //faire un formulaire qui permet de recuperer le login et le mot de passe utilisateur, à la validation du formulaire stoquer les infos dans un cookie.
 
-$value = 'cookie';
+$value = "cookie";
 
-setcookie("pseudo", $value);
-setcookie("Password", $value, time()+3600); 
+setcookie("pseudo", $_SESSION['nom']);
+setcookie("Password", $_SESSION['prenom'], time()+3600); 
 
-echo $_COOKIE["cookie"];
+echo $_COOKIE["pseudo"];
+echo $_COOKIE[ "Password"];
 
 
 //exercice 4
