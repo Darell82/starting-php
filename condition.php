@@ -28,10 +28,14 @@ $genre="femme";
 	}elseif($age<18 AND $genre="femme"){
 		echo "vous êtes une femme et vous êtes mineur<br>";
 	}
+
+
 echo ($maVariable if= 'Homme') echo 'C\'est une développeuse !!!' else 'C\'est un développeur !!!';
 echo ($maVariable == false) if 'c\'est pas bon !!!' else 'c\'est ok !!';
 echo ($monAge >= 18) if 'Tu es majeur' else 'Tu n\'es pas majeur';
 echo ($maVariable) if 'c'est ok !!' else 'c'est pas bon !!!';
+
+
 ?>
 ?>
 </body>
