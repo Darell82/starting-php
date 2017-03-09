@@ -22,15 +22,23 @@ echo "Server_Adress : ".$_SERVER['REMOTE_ADDR']."<br><br>";
 
   session_start();
 
-            
-            $_SESSION['nom'] = "Knight";
-            $_SESSION['prenom'] = "Darell";
-            $_SESSION['age'] = "34 ans";
-			echo "<p><a href='superglobal2.php'></a></p>";
+   $_SESSION['nom'] = "Knight";
+   $_SESSION['prenom'] = "Darell";
+   $_SESSION['age'] = "34 ans";
+
+echo "<p><a href='superglobal2.php'></a></p>";
  
 
 //exercice 3
 //faire un formulaire qui permet de recuperer le login et le mot de passe utilisateur, à la validation du formulaire stoquer les infos dans un cookie.
+
+$value = 'cookie';
+
+setcookie("pseudo", $value);
+setcookie("Password", $value, time()+3600); 
+
+echo $_COOKIE["cookie"];
+
 
 //exercice 4
 //sur super global2.php.recuperer les infos du cookie et les afficher.
@@ -41,6 +49,8 @@ echo "Server_Adress : ".$_SERVER['REMOTE_ADDR']."<br><br>";
 //exercice 6
 
 //exercice 7
+
+//exercice 
 
 
 

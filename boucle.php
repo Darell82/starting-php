@@ -13,6 +13,7 @@
  	$var1=0;
  	$var2=55;
  	$compteur = 0;
+ 	$variable4 = 1;
  	//exo1	
 while ($compteur <= 10){
     printf("La variable compteur vaut %d\n", $compteur);
@@ -22,7 +23,7 @@ while ($compteur <= 10){
 
 	//exo2
 
-while ($var2 < 20){
+while ($var2 <= 20){
 	echo $var1 * $var2;
 	$var1++;
 }
@@ -33,7 +34,10 @@ while ($nb1 >= 10){
 	$nb1--;
 }
 	//exo4
-
+ while($variable4 < 10){
+ 	echo $variable4;
+ $variable4 += $variable4/2;
+}
 
 	//exo5
 	//en allant de 1 a 15 avec un pas de 1: afficher le message "on y arrive presque";
