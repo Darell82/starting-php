@@ -17,24 +17,32 @@
  <p><input type="submit" value="OK"></p>
 </form>
 
-<form action="user.php" method="get">
-	<select name="Mr" id="Mr">
+
+
+ 
+ 
+ 
+ 
+<?php if (!isset($_POST['name'], $_POST['prenom'])): ?>
+	
+
+<form action="" method="post">
+	<select name="genre">
+		<option>Merci de choisir votre genre</option>
  		<option value="une">Mr</option>
     	<option value="deux">Madamme</option>
  	</select>
- 		<p>Votre nom : <input type="text" name="nom" /></p>
+ 		<p>Votre nom : <input type="text" name="name" /></p>
  		<p>Votre prenom: <input type="text" name="prenom" /></p>
+ 		<p><input type="file" name="fichier"></p>
  		<p><input type="submit" value="OK"></p>
+
 </form>
+<?php else :
+echo $_POST['name']. $_POST['prenom'].$_POST['genre'].$_POST['fichier'];
 
+endif;
+?>
  
- 
- 
- 
-<?php
-
-
-
-?> 
 </body>
 </html>
