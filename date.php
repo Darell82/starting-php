@@ -18,11 +18,16 @@ $datetime1 = new Datetime('2016-05-16');
 $datetime2 = new Datetime();
 $interval = $datetime1 -> diff($datetime2);
 echo $interval -> format('%a jour').'<br/>';
-//exercice5
 //exercice6
-
+//Afficher le nombre de jour dans le mois de février de l'année 2016.
 //exercice7
+//Afficher la date du jour + 20 jours.
 //exercice8
+//Afficher la date du jour - 22 jours
+//exercice9
+//TP Faire un formulaire avec deux listes déroulantes. La première sert à choisir le mois, et le deuxième permet d'avoir l'année.
+
+//ressortir un le nombre de jour de differance
 
 
 ?>
