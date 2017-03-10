@@ -27,7 +27,7 @@ class Personnage{// Commence par une Majuscule
         private function crier(){
             return $this->cri;
         }
-    }
+    } 
 
         $julien = new Personnage();
         $julien->setNom('julien');
@@ -41,7 +41,7 @@ class Personnage{// Commence par une Majuscule
 
 
         $julien->attaque($Pierre);
-        
+
         echo $Pierre->crier();
 
 
