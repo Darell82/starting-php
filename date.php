@@ -76,7 +76,7 @@ for ($i=0; $i < 6-$index ; $i++) {
 
 <table>
     <tr>
-        <td colspan="7"><?php echo $_GET['mois']." / ".$_GET['annee']?></td>
+        <td colspan="7"><?php echo $_GET['mois']." / ".$_GET['annee']." @RegisStyle!"?></td>
     </tr>    
     <tr>
         <td>Lu</td>
