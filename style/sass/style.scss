@@ -1,0 +1,13 @@
+$taille:50px;
+table{
+	td{
+		border:solid 1px black;
+		height: $taille;
+		width: $taille;
+		text-align: center;
+		background-color: black;
+		color: lime;
+		border-radius:5px;
+		box-shadow: 0 0 5px;
+	}
+}

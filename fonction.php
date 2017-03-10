@@ -55,6 +55,7 @@ echo fusion ( 10 , " chouette ");
 	echo bonjour ("bonjour "."leroux"."alexandre"." tu as ".34." ans.");
 
 	//exercice7
+	
 	//exercice8
 
 ?>
